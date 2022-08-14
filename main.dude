@@ -1,0 +1,55 @@
+a = 0.123
+b = 123
+c = 0xA
+d = 0b01
+d1 = "asddas"
+d2 = 'a'
+d3 = true
+d4 = false
+d5 = null
+d6 = [1,2,3]
+d7 = [1:10:3]
+
+for i in [1:10]
+  e1 = 0
+end
+
+while c < 5
+ e1 = 0
+ e2 = 0xA
+end
+
+dat Point x, y end
+
+
+// f = fun() end
+
+e = a // meh ()
+
+// bla // * dude /
+
+if e < 1
+  ret
+elif ((e > 1) < 4)
+  ret
+else
+  ret
+end
+
+fun foo (i2, j, k)
+  l = 0
+
+  if j
+    ret l            // bla
+  elif k * j
+    ret i2          // blub
+  else
+    ret j - k
+  end
+
+  while i < 10  a = 0 c = 8  end
+
+  fun len (r) a = c ret j end
+  ret
+end
+
