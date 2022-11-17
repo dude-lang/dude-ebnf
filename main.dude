@@ -10,7 +10,22 @@ d5 = null
 d6 = [1,2,3]
 d7 = [1:10:3]
 
+mod Math
+    fun add(a, b)
+        ret a + b
+    end
+end
+
+use Math
+
+type Byte = 0..0xFF
+type Letter = 'a'..'Z'
+
 for i in [1:10]
+  e1 = 0
+end
+
+for i in 1..10
   e1 = 0
 end
 
@@ -36,7 +51,7 @@ else
   ret
 end
 
-fun foo (i2, j, k)
+fun foo(i2, j, k)
   l = 0
 
   if j
@@ -49,7 +64,7 @@ fun foo (i2, j, k)
 
   while i < 10  a = 0 c = 8  end
 
-  fun len (r) a = c ret j end
+  fun len(r) a = c ret j end
   ret
 end
 

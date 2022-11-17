@@ -30,8 +30,12 @@
 
 ## Keywords
 ```
-<keyword>                       ::= "fun" | "ret" | "end" | "if" | "elif" | "else" | "nop" | "for" | "while" | 
-                                    "dat" | "in" | "true" | "false" | "null"
+<keyword>                       ::= "dat" | 
+                                    "as" | 
+                                    "fun" | "if" | "elif" | "else" | "for" | "while" | "in" | "end" |
+                                    "nop" | "ret" |
+                                    "mod" | "use" |
+                                    "true" | "false" | "null" 
 ```
 
 ## Operators
